@@ -1,45 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 .bg-container {
-    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png');
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png');
     height: 100vh;
     background-size: cover;
 }
 
-.news-card {
-    background-color: #ffffff;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    padding: 25px;
+.card-container {
+    background-color: #000000e6;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 15px;
+
 }
 
-.news-category {
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 12px;
-}
-
-.news-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.news-description {
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 12px;
-}
-
-.button {
+.hotel-name {
     color: #ffffff;
-    background-color: #323f4b;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.hotel-add {
+    color: #ffffff;
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 500;
-    width: 109px;
-    height: 38px;
+}
+
+.hotel-price {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.button {
+    background-color: #ffffff;
+    font-family: "Roboto";
     border-width: 0px;
     border-radius: 8px;
+    font-size: 12px;
+    width: 119px;
+    height: 38px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
 }
