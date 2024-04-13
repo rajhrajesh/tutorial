@@ -1,64 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.cricketer-top-section {
-    background-color: #fb4e71;
+.top-section {
+    background-color: #ffffff;
     padding: 15px;
 }
 
-.cricketer-name {
-    color: #ffffff;
-    font-family: "Roboto";
+.top-section-heading {
+    color: #323f4b;
     font-size: 22px;
-    font-weight: bold;
-}
-
-.cricketer-description {
-    color: #ffffff;
     font-family: "Roboto";
-    font-size: 12px;
 }
 
-.cricketer-bottom-section {
-    background-color: #e6f6ff;
-    height: 500px;
+.top-section-button {
+    background-color: #0967d2;
+    font-size: 12px;
+    border-width: 0px;
+    border-radius: 11px;
+    width: 120px;
+    height: 38px;
+    color: #ffffff;
+}
+
+.bottom-section {
+    background-color: #0967d219;
+    margin: 10px;
+    border-radius: 10px;
     padding: 10px;
+
+}
+
+.covid-image {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+
+.bottom-section-card-container {
+    padding: 5px;
+}
+
+.bottom-section-heading {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.bottom-section-caption {
+    font-size: 12px;
+    font-family: "Roboto";
 }
 
 .sub-title {
-    color: #323f4b;
-    font-weight: bold;
     font-size: 16px;
-}
-
-.ipl-container {
-    background-color: #ffffff;
-    border-radius: 12px;
-    margin: 5px;
-}
-
-.ipl-card-text {
-    padding: 8px;
-}
-
-.ipl-card-title {
-    color: #323f4b;
     font-family: "Roboto";
-    font-size: 16px;
+    margin: 10px;
+    padding: 5px;
     font-weight: 600;
+    color: #323f4b;
 }
 
-.ipl-card-caption {
-    color: #888888;
-    font-family: "Roboto";
-    font-size: 14px;
+.covid-symptom-container {
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
 }
 
-.video-text-container {
-    width: 96px;
-    margin: 5px;
-}
-
-.video-description {
+.covid-card-description {
+    color: #707070;
     font-family: "Roboto";
     font-size: 12px;
+}
+
+.cough-bg {
+    background-color: #3ebd93;
+}
+
+.fever-bg {
+    background-color: #e668a7;
+}
+
+.headache-bg {
+    background-color: #a368fc;
+}
+
+.footer-section {
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #e12d3919;
+}
+
+.footer-section-text-container-heading {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-section-text-container-description {
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.video-image {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
 }
