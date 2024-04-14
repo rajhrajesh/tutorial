@@ -1,31 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png');
+    background-size: cover;
+    padding: 24px;
+}
+
+.header-section {
+    border-radius: 12px;
+    background-color: white;
+}
 
 .bottom-section {
-    padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.title {
-    color: #323f4b;
+.heading {
+    color: #ffffff;
     font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.para {
-    color: #9aa5b1;
-    font-family: "Roboto";
-    font-size: 14px;
-}
-
-.picture-card {
-    margin-right: 5px;
-}
-
-.video-card {
-    margin-right: 5px;
-    width: 96px;
-    height: 96px;
+.button {
+    background-color: #ffffff;
     border-radius: 8px;
-    margin: 4px;
+    border-width: 0px;
+    font-size: 12px;
+    color: #ff8348;
+    width: 98px;
+    height: 38px;
+    font-weight: 500;
+}
+
+.description {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.sub-movie {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.similar-movie-image {
+    margin: 5px;
 }
